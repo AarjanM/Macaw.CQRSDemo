@@ -1,0 +1,24 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "buildOptions": {
+    "emitEntryPoint": false,
+    "preserveCompilationContext": true
+  },
+
+  "dependencies": {
+    "Macaw.CQRSDemo.Infrastructure.Common": "1.0.0-*",
+    "Macaw.CQRSDemo.Infrastructure.EventSourcing": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.1.0-*"
+        }
+      }
+    }
+  }
+}

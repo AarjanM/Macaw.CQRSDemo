@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{CDCB76E3-3A3D-4238-8F9C-350C7CF7E898}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BoundedContexts", "BoundedContexts", "{1031829D-26BD-4F02-A977-33E8E626F3C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9BC39A0E-D854-4F2D-ABCD-56E3C7321B63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MatchPlay", "MatchPlay", "{984B43FD-3EA9-4585-8D78-BD97BD39ACED}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Macaw.CQRSDemo.WebApplication", "src\Macaw.CQRSDemo.WebApplication\Macaw.CQRSDemo.WebApplication.xproj", "{E03BDA24-33F7-4533-B126-C36C2F415AE2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Macaw.CQRSDemo.Infrastructure.Repositories", "src\Macaw.CQRSDemo.Infrastructure.Repositories\Macaw.CQRSDemo.Infrastructure.Repositories.xproj", "{11D0775B-89DC-4680-9CEC-D76E31AEEC24}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Macaw.CQRSDemo.Infrastructure.Common", "src\Macaw.CQRSDemo.Infrastructure.Common\Macaw.CQRSDemo.Infrastructure.Common.xproj", "{A9AE3E0B-8ECE-4393-ACDA-E00865BCED8A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Macaw.CQRSDemo.Infrastructure.EventSourcing", "src\Macaw.CQRSDemo.Infrastructure.EventSourcing\Macaw.CQRSDemo.Infrastructure.EventSourcing.xproj", "{A9EBAEC0-29EA-420C-BB7D-001703B25B8E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Macaw.CQRSDemo.MatchPlay.QueryStack", "src\Macaw.CQRSDemo.MatchPlay.QueryStack\Macaw.CQRSDemo.MatchPlay.QueryStack.xproj", "{05E2B0A4-308B-46C9-87B2-21203CF20FDA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Macaw.CQRSDemo.MatchPlay.CommandStack", "src\Macaw.CQRSDemo.MatchPlay.CommandStack\Macaw.CQRSDemo.MatchPlay.CommandStack.xproj", "{C118AEEE-FE77-487B-AAFC-93D70DC7E50C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E03BDA24-33F7-4533-B126-C36C2F415AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03BDA24-33F7-4533-B126-C36C2F415AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03BDA24-33F7-4533-B126-C36C2F415AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03BDA24-33F7-4533-B126-C36C2F415AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D0775B-89DC-4680-9CEC-D76E31AEEC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D0775B-89DC-4680-9CEC-D76E31AEEC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D0775B-89DC-4680-9CEC-D76E31AEEC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D0775B-89DC-4680-9CEC-D76E31AEEC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AE3E0B-8ECE-4393-ACDA-E00865BCED8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AE3E0B-8ECE-4393-ACDA-E00865BCED8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AE3E0B-8ECE-4393-ACDA-E00865BCED8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AE3E0B-8ECE-4393-ACDA-E00865BCED8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9EBAEC0-29EA-420C-BB7D-001703B25B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EBAEC0-29EA-420C-BB7D-001703B25B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EBAEC0-29EA-420C-BB7D-001703B25B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EBAEC0-29EA-420C-BB7D-001703B25B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E2B0A4-308B-46C9-87B2-21203CF20FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E2B0A4-308B-46C9-87B2-21203CF20FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E2B0A4-308B-46C9-87B2-21203CF20FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E2B0A4-308B-46C9-87B2-21203CF20FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C118AEEE-FE77-487B-AAFC-93D70DC7E50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C118AEEE-FE77-487B-AAFC-93D70DC7E50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C118AEEE-FE77-487B-AAFC-93D70DC7E50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C118AEEE-FE77-487B-AAFC-93D70DC7E50C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{984B43FD-3EA9-4585-8D78-BD97BD39ACED} = {1031829D-26BD-4F02-A977-33E8E626F3C2}
+		{11D0775B-89DC-4680-9CEC-D76E31AEEC24} = {9BC39A0E-D854-4F2D-ABCD-56E3C7321B63}
+		{A9AE3E0B-8ECE-4393-ACDA-E00865BCED8A} = {9BC39A0E-D854-4F2D-ABCD-56E3C7321B63}
+		{A9EBAEC0-29EA-420C-BB7D-001703B25B8E} = {9BC39A0E-D854-4F2D-ABCD-56E3C7321B63}
+		{05E2B0A4-308B-46C9-87B2-21203CF20FDA} = {984B43FD-3EA9-4585-8D78-BD97BD39ACED}
+		{C118AEEE-FE77-487B-AAFC-93D70DC7E50C} = {984B43FD-3EA9-4585-8D78-BD97BD39ACED}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+
+  "buildOptions": {
+    "emitEntryPoint": false,
+    "preserveCompilationContext": true
+  },
+
+  "dependencies": {
+    "Macaw.CQRSDemo.Infrastructure.Repositories": "1.0.0-*",
+    "Newtonsoft.Json": "9.0.1",
+    "System.Reflection.TypeExtensions": "4.3.0"
+  },
+
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.1.0-*"
+        }
+      }
+    }
+  }
+}
