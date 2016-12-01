@@ -1,0 +1,5 @@
+﻿http://go.microsoft.com/fwlink/?LinkId=798221
+
+cd .\src\Macaw.CQRSDemo.Infrastructure.Repositories
+dotnet ef --startup-project ../Macaw.CQRSDemo.WebApplication/ migrations list
+dotnet ef --startup-project ../Macaw.CQRSDemo.WebApplication/ database update
